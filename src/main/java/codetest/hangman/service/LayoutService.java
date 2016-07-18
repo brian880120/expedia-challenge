@@ -20,13 +20,13 @@ public class LayoutService {
 		layoutComponent.setBasicComponent();
 		layoutComponent.setRestartButton();
 
-	    	gamePanel.add(layoutComponent.getTextField());
-	    	gamePanel.add(layoutComponent.getGuessLabel());
-	    	gamePanel.add(layoutComponent.getMessageLabel());
-	    	gamePanel.add(layoutComponent.getInstructionLabel());
-    		gamePanel.add(layoutComponent.getBasicComponent());
-    		gamePanel.add(layoutComponent.getRestartButton());
-    		gamePanel.repaint();
+		gamePanel.add(layoutComponent.getTextField());
+		gamePanel.add(layoutComponent.getGuessLabel());
+		gamePanel.add(layoutComponent.getMessageLabel());
+		gamePanel.add(layoutComponent.getInstructionLabel());
+		gamePanel.add(layoutComponent.getBasicComponent());
+		gamePanel.add(layoutComponent.getRestartButton());
+		gamePanel.repaint();
 	}
 
 	public LayoutComponent getLayoutComponent() {
