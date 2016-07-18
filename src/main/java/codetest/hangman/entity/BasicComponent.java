@@ -10,12 +10,12 @@ public class BasicComponent extends JPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	@Override
+    @Override
     public void paintComponent(final Graphics g) {
-    	g.drawLine(0, 0, 200, 0);
-    	g.drawLine(0, 0, 0, 300);
-    	g.drawLine(0, 300, 200, 300);
-    	g.drawLine(100, 0, 100, 40);
+        g.drawLine(0, 0, 200, 0);
+        g.drawLine(0, 0, 0, 300);
+        g.drawLine(0, 300, 200, 300);
+        g.drawLine(100, 0, 100, 40);
     }
 
     @Override

@@ -17,8 +17,8 @@ import codetest.hangman.service.WordGuessService;
 public class HangmanController {
 
 	private GameStatus gameStatus;
-    private JPanel gamePanel;
-    private LayoutComponent layoutComponent;
+	private JPanel gamePanel;
+	private LayoutComponent layoutComponent;
 
     // initialize game status with secret word, empty guess field, step count etc ...
 	public void initializeGameStatus() {
