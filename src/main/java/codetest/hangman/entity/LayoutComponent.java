@@ -66,7 +66,7 @@ public class LayoutComponent {
 	public void setRestartButton() {
 		restartButton = new JButton("restart");
 		restartButton.setLocation(300, 250);
-		restartButton.setSize(50, 20);
+		restartButton.setSize(90, 20);
 	}
 
 	public JLabel getInstructionLabel() {

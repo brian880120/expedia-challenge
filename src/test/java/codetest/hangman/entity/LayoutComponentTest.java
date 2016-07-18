@@ -61,7 +61,7 @@ public class LayoutComponentTest {
 		layoutComponent.setRestartButton();
 		assertEquals(300, layoutComponent.getRestartButton().getX());
 		assertEquals(250, layoutComponent.getRestartButton().getY());
-		assertEquals(50, layoutComponent.getRestartButton().getSize().width);
+		assertEquals(90, layoutComponent.getRestartButton().getSize().width);
 		assertEquals(20, layoutComponent.getRestartButton().getSize().height);
 	}
 }
