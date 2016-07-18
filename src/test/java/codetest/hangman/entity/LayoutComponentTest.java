@@ -41,9 +41,9 @@ public class LayoutComponentTest {
 	@Test
 	public void shouldSetMessageLabel() {
 		layoutComponent.setMessageLabel("messageLabel");
-		assertEquals(100, layoutComponent.getMessageLabel().getX());
+		assertEquals(80, layoutComponent.getMessageLabel().getX());
 		assertEquals(300, layoutComponent.getMessageLabel().getY());
-		assertEquals(600, layoutComponent.getMessageLabel().getSize().width);
+		assertEquals(700, layoutComponent.getMessageLabel().getSize().width);
 		assertEquals(100, layoutComponent.getMessageLabel().getSize().height);
 	}
 
