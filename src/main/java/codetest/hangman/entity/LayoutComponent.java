@@ -42,10 +42,10 @@ public class LayoutComponent {
 
 	public void setMessageLabel(String name) {
 	    messageLabel = new JLabel(name);
-	    messageLabel.setLocation(100, 300);
+	    messageLabel.setLocation(80, 300);
 	    messageLabel.setForeground(Color.RED);
 	    messageLabel.setFont(new Font("", Font.PLAIN, 20));
-	    messageLabel.setSize(600, 100);
+	    messageLabel.setSize(700, 100);
 	}
 
 	public BasicComponent getBasicComponent() {
