@@ -16,12 +16,14 @@ public class LayoutService {
 		layoutComponent.setTextField();
 		layoutComponent.setMessageLabel("");
 		layoutComponent.setGuessLabel(gameStatus.getCurrentGuess().replace("", " ").trim());
+		layoutComponent.setInstructionLabel();
 		layoutComponent.setBasicComponent();
 		layoutComponent.setRestartButton();
 
 	    gamePanel.add(layoutComponent.getTextField());
 	    gamePanel.add(layoutComponent.getGuessLabel());
 	    gamePanel.add(layoutComponent.getMessageLabel());
+	    gamePanel.add(layoutComponent.getInstructionLabel());
     	gamePanel.add(layoutComponent.getBasicComponent());
     	gamePanel.add(layoutComponent.getRestartButton());
     	gamePanel.repaint();

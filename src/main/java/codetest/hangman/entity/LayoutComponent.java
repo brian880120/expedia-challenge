@@ -12,6 +12,7 @@ public class LayoutComponent {
 	private JTextField textField;
 	private JLabel guessLabel;
 	private JLabel messageLabel;
+	private JLabel instructionLabel;
 	private BasicComponent basicComponent;
 	private JButton restartButton;
 
@@ -67,5 +68,15 @@ public class LayoutComponent {
 		restartButton.setLocation(300, 250);
 		restartButton.setSize(50, 20);
 	}
-	
+
+	public JLabel getInstructionLabel() {
+		return this.instructionLabel;
+	}
+
+	public void setInstructionLabel() {
+		instructionLabel = new JLabel("(enter your guess here, press ENTER to continue)");
+		instructionLabel.setLocation(300, 140);
+		instructionLabel.setFont(new Font("", Font.PLAIN, 10));
+		instructionLabel.setSize(300, 100);
+	}
 }

@@ -50,6 +50,7 @@ public class HangmanControllerTest {
 		assertNotNull(layoutComponent.getMessageLabel());
 		assertNotNull(layoutComponent.getRestartButton());
 		assertNotNull(layoutComponent.getTextField());
-		assertEquals(5, gamePanel.getComponentCount());
+		assertNotNull(layoutComponent.getInstructionLabel());
+		assertEquals(6, gamePanel.getComponentCount());
 	}
 }

@@ -16,6 +16,6 @@ public class LayoutServiceTest {
 		GameStatus gameStatus = new GameStatus("test", "____");
 		LayoutService layoutService = new LayoutService();
 		layoutService.drawLayoutComponent(gamePanel, gameStatus);
-		assertEquals(5, gamePanel.getComponentCount());
+		assertEquals(6, gamePanel.getComponentCount());
 	}
 }
