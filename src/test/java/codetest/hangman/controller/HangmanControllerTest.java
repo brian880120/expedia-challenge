@@ -16,8 +16,8 @@ public class HangmanControllerTest {
 
 	private HangmanController hangmanController;
 	private GameStatus gameStatus;
-    private JPanel gamePanel;
-    private LayoutComponent layoutComponent;
+	private JPanel gamePanel;
+	private LayoutComponent layoutComponent;
 
 	@Before
 	public void initialize() {
