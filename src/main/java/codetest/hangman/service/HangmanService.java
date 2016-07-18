@@ -31,7 +31,7 @@ public class HangmanService {
 		}
 
 		// display success message if user complete secret word before hangman is completed
-		if (gameStatus.getCurrentGuess().equalsIgnoreCase(gameStatus.getSecretWord()) && gameStatus.getStepCount() < 10) {
+		if (gameStatus.getCurrentGuess().equalsIgnoreCase(gameStatus.getSecretWord()) && gameStatus.getStepCount() <= 10) {
 			gameStatus.setSucess(true);
 			layoutComponent.getMessageLabel().setText("You win ! Press restart to continue");
 		}
